@@ -54,5 +54,12 @@ namespace WinFormsApp1_bank
             Transfer dep = new Transfer();
             dep.Show();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 d = new Form1();
+            d.Show();
+        }
     }
 }

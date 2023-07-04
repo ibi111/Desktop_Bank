@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             label1 = new Label();
+            label7 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -51,12 +52,24 @@
             label1.TabIndex = 5;
             label1.Text = "Dashboard";
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(12, 9);
+            label7.Name = "label7";
+            label7.Size = new Size(32, 35);
+            label7.TabIndex = 14;
+            label7.Text = "<";
+            label7.Click += label7_Click;
+            // 
             // AdminDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
             ClientSize = new Size(800, 450);
+            Controls.Add(label7);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "AdminDashboard";
@@ -70,5 +83,6 @@
 
         private Button button1;
         private Label label1;
+        private Label label7;
     }
 }

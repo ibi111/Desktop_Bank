@@ -40,6 +40,7 @@
             label5 = new Label();
             textBox5 = new TextBox();
             label6 = new Label();
+            label7 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -147,12 +148,24 @@
             label6.TabIndex = 10;
             label6.Text = "Credit Card Type";
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(12, 9);
+            label7.Name = "label7";
+            label7.Size = new Size(32, 35);
+            label7.TabIndex = 12;
+            label7.Text = "<";
+            label7.Click += label7_Click;
+            // 
             // Addaccount
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
             ClientSize = new Size(860, 604);
+            Controls.Add(label7);
             Controls.Add(textBox5);
             Controls.Add(label6);
             Controls.Add(textBox4);
@@ -185,5 +198,6 @@
         private Label label5;
         private TextBox textBox5;
         private Label label6;
+        private Label label7;
     }
 }

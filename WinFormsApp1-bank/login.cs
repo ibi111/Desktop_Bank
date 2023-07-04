@@ -63,7 +63,7 @@ namespace WinFormsApp1_bank
                             // Perform any additional actions or navigate to another form
                             connection.Close();
 
-                            if(IsAdminUser(username,password))
+                            if (IsAdminUser(username, password))
                             {
                                 this.Hide();
                                 AdminDashboard dashForm = new AdminDashboard();

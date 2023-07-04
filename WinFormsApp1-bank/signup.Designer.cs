@@ -38,6 +38,7 @@
             label1 = new Label();
             button1 = new Button();
             label2 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // checkBox1
@@ -132,12 +133,24 @@
             label2.TabIndex = 15;
             label2.Click += label2_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(12, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(32, 35);
+            label4.TabIndex = 16;
+            label4.Text = "<";
+            label4.Click += label4_Click;
+            // 
             // signup
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(label1);
@@ -165,5 +178,6 @@
         private Label label1;
         private Button button1;
         private Label label2;
+        private Label label4;
     }
 }

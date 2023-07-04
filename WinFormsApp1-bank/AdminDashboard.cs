@@ -38,5 +38,12 @@ namespace WinFormsApp1_bank
             Addaccount add = new Addaccount();
             add.Show();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 d = new Form1();
+            d.Show();
+        }
     }
 }

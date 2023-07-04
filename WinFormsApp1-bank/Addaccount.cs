@@ -129,5 +129,12 @@ namespace WinFormsApp1_bank
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AdminDashboard d = new AdminDashboard();
+            d.Show();
+        }
     }
 }

@@ -34,6 +34,7 @@
             textBox1 = new TextBox();
             label1 = new Label();
             button1 = new Button();
+            label4 = new Label();
             SuspendLayout();
             // 
             // label3
@@ -87,12 +88,24 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(12, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(32, 35);
+            label4.TabIndex = 12;
+            label4.Text = "<";
+            label4.Click += label4_Click;
+            // 
             // Withdraw
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label2);
@@ -113,5 +126,6 @@
         private TextBox textBox1;
         private Label label1;
         private Button button1;
+        private Label label4;
     }
 }
