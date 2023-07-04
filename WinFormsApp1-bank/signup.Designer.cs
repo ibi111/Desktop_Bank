@@ -48,6 +48,7 @@
             checkBox1.Size = new Size(18, 17);
             checkBox1.TabIndex = 1;
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // textBox2
             // 
@@ -56,6 +57,7 @@
             textBox2.PasswordChar = '*';
             textBox2.Size = new Size(200, 27);
             textBox2.TabIndex = 12;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label5
             // 
@@ -81,6 +83,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(200, 27);
             textBox3.TabIndex = 9;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // button2
             // 
@@ -90,6 +93,7 @@
             button2.TabIndex = 8;
             button2.Text = "Sign up";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label7
             // 
