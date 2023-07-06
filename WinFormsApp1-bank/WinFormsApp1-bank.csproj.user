@@ -19,6 +19,9 @@
     <Compile Update="login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="searchAccount .cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="signup.cs">
       <SubType>Form</SubType>
     </Compile>

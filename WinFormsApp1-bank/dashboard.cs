@@ -61,5 +61,13 @@ namespace WinFormsApp1_bank
             Form1 d = new Form1();
             d.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            searchAccount d = new searchAccount();
+            d.Show();
+
+        }
     }
 }

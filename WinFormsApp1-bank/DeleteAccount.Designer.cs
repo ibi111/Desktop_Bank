@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1_bank
 {
-    partial class AdminDashboard
+    partial class DeleteAccount
     {
         /// <summary>
         /// Required designer variable.
@@ -28,30 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label7 = new Label();
+            textBox2 = new TextBox();
+            label3 = new Label();
             button1 = new Button();
             label1 = new Label();
-            label7 = new Label();
-            button2 = new Button();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(283, 161);
-            button1.Name = "button1";
-            button1.Size = new Size(200, 35);
-            button1.TabIndex = 4;
-            button1.Text = "Add Account";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(332, 44);
-            label1.Name = "label1";
-            label1.Size = new Size(82, 20);
-            label1.TabIndex = 5;
-            label1.Text = "Dashboard";
             // 
             // label7
             // 
@@ -60,42 +42,68 @@
             label7.Location = new Point(12, 9);
             label7.Name = "label7";
             label7.Size = new Size(32, 35);
-            label7.TabIndex = 14;
+            label7.TabIndex = 30;
             label7.Text = "<";
             label7.Click += label7_Click;
             // 
-            // button2
+            // textBox2
             // 
-            button2.Location = new Point(283, 220);
-            button2.Name = "button2";
-            button2.Size = new Size(200, 35);
-            button2.TabIndex = 15;
-            button2.Text = "Delete Account";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            textBox2.Location = new Point(200, 119);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(200, 27);
+            textBox2.TabIndex = 29;
             // 
-            // AdminDashboard
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(88, 119);
+            label3.Name = "label3";
+            label3.Size = new Size(90, 20);
+            label3.TabIndex = 28;
+            label3.Text = "Account No:";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(200, 204);
+            button1.Name = "button1";
+            button1.Size = new Size(100, 35);
+            button1.TabIndex = 27;
+            button1.Text = "Delete";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(200, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(111, 20);
+            label1.TabIndex = 26;
+            label1.Text = "Delete Account";
+            // 
+            // DeleteAccount
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
+            ClientSize = new Size(529, 312);
             Controls.Add(label7);
-            Controls.Add(label1);
+            Controls.Add(textBox2);
+            Controls.Add(label3);
             Controls.Add(button1);
-            Name = "AdminDashboard";
-            Text = "AdminDashboard";
-            Load += AdminDashboard_Load;
+            Controls.Add(label1);
+            Name = "DeleteAccount";
+            Text = "DeleteAccount";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private Label label7;
+        private TextBox textBox2;
+        private Label label3;
         private Button button1;
         private Label label1;
-        private Label label7;
-        private Button button2;
     }
 }

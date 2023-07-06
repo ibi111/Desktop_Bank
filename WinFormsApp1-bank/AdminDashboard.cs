@@ -45,5 +45,13 @@ namespace WinFormsApp1_bank
             Form1 d = new Form1();
             d.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeleteAccount d = new DeleteAccount();
+            d.Show();
+
+        }
     }
 }

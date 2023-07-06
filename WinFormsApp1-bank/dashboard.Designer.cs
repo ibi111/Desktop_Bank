@@ -33,6 +33,7 @@
             button2 = new Button();
             button3 = new Button();
             label7 = new Label();
+            button4 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -86,12 +87,23 @@
             label7.Text = "<";
             label7.Click += label7_Click;
             // 
+            // button4
+            // 
+            button4.Location = new Point(300, 283);
+            button4.Name = "button4";
+            button4.Size = new Size(200, 35);
+            button4.TabIndex = 14;
+            button4.Text = "Search Account";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
             Controls.Add(label7);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -110,5 +122,6 @@
         private Button button2;
         private Button button3;
         private Label label7;
+        private Button button4;
     }
 }

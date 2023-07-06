@@ -2002,11 +2002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Furqan\\source\\repos\\WinFormsApp1-bank\\WinFormsApp1-bank\\WinFormsApp1-bank.csproj",
+      "projectUniqueName": "C:\\Users\\Furqan\\Source\\Repos\\Desktop_Bank\\WinFormsApp1-bank\\WinFormsApp1-bank.csproj",
       "projectName": "WinFormsApp1-bank",
-      "projectPath": "C:\\Users\\Furqan\\source\\repos\\WinFormsApp1-bank\\WinFormsApp1-bank\\WinFormsApp1-bank.csproj",
+      "projectPath": "C:\\Users\\Furqan\\Source\\Repos\\Desktop_Bank\\WinFormsApp1-bank\\WinFormsApp1-bank.csproj",
       "packagesPath": "C:\\Users\\Furqan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Furqan\\source\\repos\\WinFormsApp1-bank\\WinFormsApp1-bank\\obj\\",
+      "outputPath": "C:\\Users\\Furqan\\Source\\Repos\\Desktop_Bank\\WinFormsApp1-bank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Furqan\\AppData\\Roaming\\NuGet\\NuGet.Config",
